@@ -5,7 +5,7 @@ URL: https://radiant-dawn-57014.herokuapp.com/
 
 ## Description
 
-This application is a react portfolio for myself, utilizing components.
+This application is a react portfolio for myself, utilizing components. Test
 
 ## Table of Contents
 
