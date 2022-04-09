@@ -433,6 +433,11 @@ ul#nav li.current a {
 #portfolio-wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  border: 3px solid white;
 }
 
 /* Portfolio Content */
@@ -811,7 +816,7 @@ ul#nav li.current a {
   background: white;
   padding-top: 96px;
   padding-bottom: 102px;
-  color: white;
+  color: black;
   background: rgb(209, 209, 179);
 }
 
@@ -923,7 +928,7 @@ ul#nav li.current a {
 }
 
 #contact span.required {
-  color: yellowgreen;
+  color: red;
   font-size: 13px;
 }
 
