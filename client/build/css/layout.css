@@ -437,7 +437,7 @@ ul#nav li.current a {
   align-items: center;
   height: 100px;
   width: 100%;
-  border: 3px solid white;
+  border: 3px solid grey;
 }
 
 /* Portfolio Content */
