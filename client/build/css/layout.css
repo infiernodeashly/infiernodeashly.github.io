@@ -434,11 +434,7 @@ ul#nav li.current a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  height: 100px;
-  width: 100%;
-  border: 3px solid grey;
-}
+  }
 
 /* Portfolio Content */
 
@@ -461,6 +457,7 @@ ul#nav li.current a {
   display: block;
   cursor: pointer;
 }
+
 
 /* overlay */
 
