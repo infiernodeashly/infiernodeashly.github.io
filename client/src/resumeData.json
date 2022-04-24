@@ -29,6 +29,11 @@
         "name": "github",
         "url": "https://github.com/infiernodeashly",
         "className": "fa fa-github"
+      }, 
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/watch/thesecretpathllc/",
+        "className": "fa fa-facebook"
       }
     ]
   },
