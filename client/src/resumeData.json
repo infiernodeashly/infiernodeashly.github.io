@@ -29,6 +29,11 @@
         "name": "github",
         "url": "https://github.com/infiernodeashly",
         "className": "fa fa-github"
+      },
+       {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/watch/thesecretpathllc/",
+        "className": "fa fa-facebook"
       }
     ]
   },
@@ -112,7 +117,7 @@
         "category": "Smoothies and Nutrition",
         "image": "basenutrition.jpg",
         "url": "https://thesecretpathllc.wixsite.com/base-nutrition"
-      }       
+      }         
 
     ],
     "marketing": [
@@ -141,7 +146,7 @@
         "title": "American Dreaming Farm and Gardens Logo",
         "category": "Produce and Flora",
         "image": "ADFGLogo2.png"
-        
+         
       },
       {
         "title": "Custom Client Logo",

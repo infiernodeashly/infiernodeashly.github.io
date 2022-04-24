@@ -61,7 +61,7 @@ if (this.props.data) {
         return <div key={logos.title} className="columns portfolio-item">
           <div className="item-wrap">
             {/* Show project title on image with linkability */}
-           
+            
               <img alt={logos.title} src={logosImage} />
               {/*Hover overlay  */}
               <div className="overlay">
@@ -70,7 +70,7 @@ if (this.props.data) {
                   <p>{logos.category}</p>
                 </div>
               </div>
-                          
+             
           </div>
         </div>
  })
