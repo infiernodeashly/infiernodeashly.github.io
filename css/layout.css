@@ -170,13 +170,14 @@ header .scrolldown a:hover {
 }
 
 .opaque {
-  background-color: #333;
+  background-color: beige;
 }
 
 /* hide toggle button */
 
 #nav-wrap>a.mobile-btn {
   display: none;
+  background-color: #154734;
 }
 
 ul#nav {
@@ -184,7 +185,17 @@ ul#nav {
   width: auto;
   /* center align the menu */
   text-align: center;
+   
 }
+
+ul#nav>a.mobile-btn {
+  min-height: 48px;
+  width: auto;
+  /* center align the menu */
+  text-align: center;
+   background-color: darkgreen;
+}
+
 
 ul#nav li {
   position: relative;
@@ -234,6 +245,10 @@ ul#nav li.current a {
 @media screen and (max-width: 400px) {
   #about {
     background: rgb(209, 209, 179);
+    
+  }
+  #nav {
+    background-color: #154734 !important;
   }
 }
 
@@ -820,12 +835,14 @@ ul#nav li.current a {
   background: rgb(209, 209, 179);
 }
 
-/* @media screen and (max-width: 900px) {
+ @media screen and (max-width: 900px) {
   #contact {
-    background: rgb(209, 209, 179) url(../images/Logo1fade.png) no-repeat top center; */
-
-/* }
-} */
+    background: rgb(209, 209, 179) url(../images/Logo1fade.png) no-repeat top center; 
+}
+#nav {
+    background-color: #154734 !important;
+  }
+} 
 
 #contact .section-head {
   margin-bottom: 42px;
