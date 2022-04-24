@@ -177,7 +177,6 @@ header .scrolldown a:hover {
 
 #nav-wrap>a.mobile-btn {
   display: none;
-  background-color: #154734;
 }
 
 ul#nav {
@@ -233,13 +232,10 @@ ul#nav li.current a {
 }
 
 @media screen and (max-width: 400px) {
-   #about {
+  #about {
     background: rgb(209, 209, 179);
-    
   }
-  #nav {
-    background-color: #154734 !important;
-  }
+  
 }
 
 #about a, #about a:visited {
