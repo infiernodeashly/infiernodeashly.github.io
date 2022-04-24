@@ -146,6 +146,7 @@ header .scrolldown a:hover {
 /* primary navigation
 --------------------------------------------------------------------- */
 
+
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
   margin: 0;
   padding: 0;
@@ -428,13 +429,16 @@ ul#nav li.current a {
   text-align: center;
   margin-bottom: 48px;
   color: #95A3A3;
+  justify-content: center;
 }
 
 #portfolio-wrapper {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
-  }
+  
+}
 
 /* Portfolio Content */
 
@@ -457,7 +461,6 @@ ul#nav li.current a {
   display: block;
   cursor: pointer;
 }
-
 
 /* overlay */
 
@@ -878,6 +881,10 @@ ul#nav li.current a {
 
 #contact form {
   margin-bottom: 30px;
+}
+
+#contactalign {
+ align-items: justify;
 }
 
 #contact label {
