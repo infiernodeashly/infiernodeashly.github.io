@@ -170,7 +170,7 @@ header .scrolldown a:hover {
 }
 
 .opaque {
-  background-color: beige;
+  background-color: #333;
 }
 
 /* hide toggle button */
@@ -185,17 +185,7 @@ ul#nav {
   width: auto;
   /* center align the menu */
   text-align: center;
-   
 }
-
-ul#nav>a.mobile-btn {
-  min-height: 48px;
-  width: auto;
-  /* center align the menu */
-  text-align: center;
-   background-color: darkgreen;
-}
-
 
 ul#nav li {
   position: relative;
@@ -243,7 +233,7 @@ ul#nav li.current a {
 }
 
 @media screen and (max-width: 400px) {
-  #about {
+   #about {
     background: rgb(209, 209, 179);
     
   }
@@ -835,12 +825,12 @@ ul#nav li.current a {
   background: rgb(209, 209, 179);
 }
 
- @media screen and (max-width: 700px) {
-  
-#nav {
-    background-color: #154734 !important;
-  }
-} 
+/* @media screen and (max-width: 900px) {
+  #contact {
+    background: rgb(209, 209, 179) url(../images/Logo1fade.png) no-repeat top center; */
+
+/* }
+} */
 
 #contact .section-head {
   margin-bottom: 42px;
