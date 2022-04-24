@@ -836,9 +836,7 @@ ul#nav li.current a {
 }
 
  @media screen and (max-width: 900px) {
-  #contact {
-    background: rgb(209, 209, 179) url(../images/Logo1fade.png) no-repeat top center; 
-}
+  
 #nav {
     background-color: #154734 !important;
   }
