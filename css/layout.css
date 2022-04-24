@@ -835,7 +835,7 @@ ul#nav li.current a {
   background: rgb(209, 209, 179);
 }
 
- @media screen and (max-width: 900px) {
+ @media screen and (max-width: 700px) {
   
 #nav {
     background-color: #154734 !important;
