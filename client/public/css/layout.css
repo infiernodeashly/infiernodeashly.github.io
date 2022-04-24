@@ -177,6 +177,7 @@ header .scrolldown a:hover {
 
 #nav-wrap>a.mobile-btn {
   display: none;
+  background-color: #154734;
 }
 
 ul#nav {
