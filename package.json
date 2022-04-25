@@ -5,8 +5,8 @@
   "main": "server.js",
   "homepage": "https://infiernodeashly.github.io",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d client/build",
+   "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d client/build",
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
@@ -27,7 +27,6 @@
     "deploy": "^1.0.3",
     "express": "^4.17.1",
     "heroku-cli": "^7.0.9",
-    "if-env": "^1.0.4",
-    "react": "^18.0.0"
+    "if-env": "^1.0.4"
   }
 }
