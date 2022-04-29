@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "homepage": "www.infiernodeashly.github.io",
+  "homepage": "http://infiernodeashly.github.io",
   "scripts": {
    "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
