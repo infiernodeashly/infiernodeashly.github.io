@@ -29,9 +29,14 @@
     "express": "^4.17.1",
     "heroku-cli": "^7.0.9",
     "if-env": "^1.0.4",
-    "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router": "^6.3.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+     
+    "@types/jest": "^27.4.0",
+    "@types/node": "^16.11.21",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "web-vitals": "^2.1.3"
   }
 }
