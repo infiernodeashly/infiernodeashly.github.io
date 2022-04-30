@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "homepage": "https://thesecretpathllc.com",
+  "homepage": "https://thesecretpathllc.com/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "cd client && gh-pages -d build",
