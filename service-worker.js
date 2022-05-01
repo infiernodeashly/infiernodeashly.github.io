@@ -9,13 +9,12 @@
  * directly; instead, make changes to your Workbox build configuration
  * and re-run your build process.
  * See https://goo.gl/2aRDsh
- * upload note
  */
 
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.8a402d4efb66347c93124da56a76bc33.js"
+  "/precache-manifest.ae541cda559aa880b0031beffc5a791b.js"
 );
 
 self.addEventListener('message', (event) => {
