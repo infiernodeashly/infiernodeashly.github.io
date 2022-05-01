@@ -17,8 +17,7 @@
       "city": "Manassas",
       "state": "Northern VA"
     },
-    "website": "https://www.timbakerdev.com",
-    "resumedownload": "images/portfolio/AshlyMayle-TechnicalResume.pdf",
+   
     "social": [
       {
         "name": "Other Portfolio",
@@ -107,13 +106,13 @@
         "url": "https://infiernodeashly.wixsite.com/adfg-demo"
       },
       {
-        "title": "Mulligans Pub on the Green",
+        "title": "Mulligans Pub on the Green Demo",
         "category": "Restaurant and Golf",
         "image": "mulligans.png",
         "url": "https://mulliganspubonthegreen.godaddysites.com/"
       },
       {
-        "title": "Base Nutrition",
+        "title": "Base Nutrition Demo",
         "category": "Smoothies and Nutrition",
         "image": "basenutrition.jpg",
         "url": "https://thesecretpathllc.wixsite.com/base-nutrition"

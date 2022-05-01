@@ -12,9 +12,11 @@ class Portfolio extends Component {
         return <div key={projects.title} className="columns portfolio-item">
           <div className="item-wrap">
             {/* Show project title on image with linkability */}
+            <h1 align-text="center" id="portfolio-titles"><br></br>{projects.title}</h1>
             <a href={projects.url} title={projects.title} target="_blank">
               <img alt={projects.title} src={projectImage} />
               {/*Hover overlay  */}
+            
               <div className="overlay">
                 <div className="portfolio-item-meta">
                   <h5>{projects.title}</h5>
@@ -36,9 +38,11 @@ if (this.props.data) {
         // returns project image with details. Project image wraps title, etc. data.
         return <div key={marketing.title} className="columns portfolio-item">
           <div className="item-wrap">
+            <h1 align-text="center"><br></br>{marketing.title}</h1>
             {/* Show project title on image with linkability */}
             <a href={marketing.url} title={marketing.title} target="_blank">
               <img alt={marketing.title} src={marketingImage} />
+              
               {/*Hover overlay  */}
               <div className="overlay">
                 <div className="portfolio-item-meta">
@@ -60,10 +64,10 @@ if (this.props.data) {
         // returns project image with details. Project image wraps title, etc. data.
         return <div key={logos.title} className="columns portfolio-item">
           <div className="item-wrap">
+            <h1 align-text="center"><br></br>{logos.title}</h1>
             {/* Show project title on image with linkability */}
-            
-              <img alt={logos.title} src={logosImage} />
-              {/*Hover overlay  */}
+            <img alt={logos.title} src={logosImage} />
+                {/*Hover overlay  */}
               <div className="overlay">
                 <div className="portfolio-item-meta">
                   <h5>{logos.title}</h5>
