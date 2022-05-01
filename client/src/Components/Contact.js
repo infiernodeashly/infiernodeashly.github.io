@@ -7,12 +7,13 @@ const Contact = ({ data }) => {
    const [subject, setSubject] = useState('');
    const [email, setEmail] = useState('');
    const [message, setMessage] = useState('');
+   
 
    console.log(data)
 //on click submit contact fileds to the appropraite fields in email. 
     const handleClick = (e) => {
        e.preventDefault();
-      window.open(`mailto:${email}?subject=${subject}&body=${name}: ${message}`);
+      window.open(`mailto:thesecretpathllc@gmail.com?subject=${subject}&body=${name}: ${message}`);
     }
     
 //displays contact form and info.
