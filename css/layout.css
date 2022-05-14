@@ -435,7 +435,7 @@ ul#nav li.current a {
 }
 
 #portfolio-wrapper {
-  display: Fixed;
+  display: fixed;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
